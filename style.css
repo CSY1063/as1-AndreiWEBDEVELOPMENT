@@ -32,3 +32,13 @@ nav {
     background-color: yellow;
     grid-area: nav;
 }
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   align-items: center;
+    row-gap: 1em;
+    width: 280%;
+}
+input[type="submit"]{
+grid-column: 1/3;
+}
