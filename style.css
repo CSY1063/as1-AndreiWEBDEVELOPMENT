@@ -12,7 +12,7 @@ nav {
    
 }
 main{
-background-color: darkblue;
+background-color: red;
 grid-area: main;
 }
 aside{
