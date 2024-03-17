@@ -1,9 +1,11 @@
 * {
     margin: 0;
     padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 body{
-    background-color: rgba(22, 5, 5, 0.164);
+    background-color: rgba(3, 18, 66, 0.637);
 }
 header {
     text-align: center;
@@ -13,17 +15,20 @@ header {
 }
 nav ul{
     grid-area: nav;
-    color: black;
+    color: rgba(3, 18, 66, 0.637);
     list-style: none;
+    background-color: white;
+    border-radius: 50%;
+    
     }
     nav a{
-
+        color: rgba(3, 18, 66, 0.637);
         text-decoration: none;
     }
-a:hover{
-    background-color: rgb(225, 0, 255);
-    color: white;
-}
+    nav a:hover{
+        color: black;
+        font-size: 1.5em;
+    }
 
 main {
     color: white;
@@ -44,9 +49,9 @@ footer {
 form{
     display: grid;
     grid-template-columns: 50% 50%;
-   align-items: center;
+    align-items: end;
     row-gap: 1em;
-    width: 280%;
+    width: 50%;
 }
 input[type="submit"]{
 grid-column: 1/3;
