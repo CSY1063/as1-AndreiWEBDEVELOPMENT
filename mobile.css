@@ -8,11 +8,13 @@ body {
         "nav";
     background-color: rgba(22, 5, 5, 0.164);
 }
-
-nav {
-
+nav a{
+    color: purple;
+    text-decoration: none;
+}
+nav {    
     display: block;
-    background-color: rgb(32, 1, 27);
+    background-color: rgb(36, 139, 236);
     position: fixed;
     top: 0%;
     left: 50%;

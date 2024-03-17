@@ -13,8 +13,10 @@ nav ul{
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
-    border-radius: 40px;
-    height: 5em;
+    color: black;
     
-    
+}
+nav a{
+    color: rgba(3, 18, 66, 0.637);
+    text-decoration: none;
 }
