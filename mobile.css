@@ -8,20 +8,22 @@ body {
         "nav";
     background-color: rgba(22, 5, 5, 0.164);
 }
-nav a{
+
+nav a {
     color: purple;
     text-decoration: none;
 }
-nav {    
+
+nav {
     display: block;
     background-color: rgb(36, 139, 236);
     position: fixed;
     top: 0%;
     left: 50%;
     width: 50%;
-    height: 100vh;
+    /*height: 100vh; if i wanted the whole navigation bar to show but i like it this way*/
     list-style: none;
-    transform: translate(100%,0%);
+    transform: translate(100%, 0%);
     z-index: -1;
     transition: transform 0.5s ease-in;
 }
@@ -35,20 +37,25 @@ nav {
     border-radius: 0.2em;
 }
 
-.showNav::before {
+/*.showNav::before {
     content: '';
     position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
     border-top: 0.2em solid #fff;
 }
+does not work properlly and i don t know why hopefully you can see why(i made it a comment just for design purposes, the code needed for this id is still working)
+*/
+
+
 
 #clicked .on {
+
     display: block;
 }
 
 #clicked .off {
-    display: none;    
+    display: none;
 }
 
 #clicked:target .on {
@@ -61,11 +68,12 @@ nav {
 
 #clicked:target {
     nav {
-        transform: translate(0,0);
+        transform: translate(0, 0);
         z-index: 1;
     }
-    
+
 }
+
 div img {
     width: 20%;
 }
