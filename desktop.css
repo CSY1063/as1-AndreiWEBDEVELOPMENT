@@ -8,15 +8,16 @@ body {
         "main main main";
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
     color: black;
-    
+
 }
-nav a{
+
+nav a {
     color: rgba(3, 18, 66, 0.637);
     text-decoration: none;
 }
