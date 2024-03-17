@@ -7,7 +7,6 @@ body {
         "nav nav nav"
         "main main main"
         "footer footer footer";
-    background-color: red;
 }
 
 nav ul{
@@ -15,4 +14,8 @@ nav ul{
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
+    border-radius: 40px;
+    height: 5em;
+    
+    
 }

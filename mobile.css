@@ -7,15 +7,31 @@ body {
         "main"
         "nav"
         "footer";
-    background-color: black;
+    background-color: rgba(22, 5, 5, 0.164);
 }
+
+nav {
+
+    display: block;
+    background-color: yellow;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    list-style: none;
+    transform: translate(100%,0%);
+    z-index: -1;
+    transition: transform 0.5s ease-in;
+}
+
 .showNav {
     height: 0.8em;
     width: 1.25em;
     display: block;
     border-top: 0.2em solid white;
     border-bottom: 0.2em solid white;
-
+    border-radius: 0.2em;
 }
 
 .showNav::before {
@@ -25,25 +41,13 @@ body {
     margin-top: 0.3em;
     border-top: 0.2em solid #fff;
 }
-nav{
-
-    display: none;
-    background-color: yellow;
-    position: fixed;
-    top: 0%;
-    left: 50%;
-    width: 50%;
-    height: 100vh;
-    list-style: none;
-    
-}
 
 #clicked .on {
     display: block;
 }
 
 #clicked .off {
-    display: none;
+    display: none;    
 }
 
 #clicked:target .on {
@@ -55,7 +59,9 @@ nav{
 }
 
 #clicked:target {
-nav{
-    display: block;
-}
+    nav {
+        transform: translate(0,0);
+        z-index: 1;
+    }
+    
 }
