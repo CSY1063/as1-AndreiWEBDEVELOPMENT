@@ -67,4 +67,8 @@ body {
       background-position: 0% 50%;
     }
   }
+  iframe{
+   display: block;
+   text-align: center;
+  }
 
