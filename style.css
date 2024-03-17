@@ -7,9 +7,16 @@ header {
     background-color: blue;
     color: white;
     grid-area: header;
-    padding: 1%;
+    
 }
-
+nav ul{
+    grid-area: nav;
+    background-color: yellow;
+    list-style: none;
+    }
+nav a{
+    text-decoration: none;
+}
 
 main {
     background-color: darkblue;
@@ -17,10 +24,6 @@ main {
     grid-area: main;
 }
 
-aside {
-    background-color: lightgreen;
-    grid-area: aside;
-}
 
 footer {
     background-color: darkgreen;
@@ -28,10 +31,8 @@ footer {
     grid-area: footer;
 }
 
-nav {
-    background-color: yellow;
-    grid-area: nav;
-}
+
+
 form{
     display: grid;
     grid-template-columns: 50% 50%;

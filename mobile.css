@@ -5,7 +5,6 @@ body {
     grid-template-areas:
         "header"
         "main"
-        "aside"
         "nav"
         "footer";
     background-color: black;
@@ -26,7 +25,7 @@ body {
     margin-top: 0.3em;
     border-top: 0.2em solid #fff;
 }
-nav {
+nav{
 
     display: none;
     background-color: yellow;
@@ -35,6 +34,8 @@ nav {
     left: 50%;
     width: 50%;
     height: 100vh;
+    list-style: none;
+    
 }
 
 #clicked .on {
